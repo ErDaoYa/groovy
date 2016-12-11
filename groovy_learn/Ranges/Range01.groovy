@@ -19,7 +19,6 @@ for (i in 1..10) {
 (1..10).each { i ->
     println "Hello ${i}"
 }
-
 switch (years) {
     case 1..10: interestRate = 0.076; break;
     case 11..25: interestRate = 0.052; break;
